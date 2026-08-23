@@ -58,7 +58,7 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: December 3, 2025</p>
+    <p class="last-updated">Last Updated: August 23, 2026</p>
 
     <p>Pets Care Pro ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
 
@@ -87,7 +87,7 @@
     </ul>
 
     <h2>Data Storage and Security</h2>
-    <p>Your pet data is stored <strong>locally on your device</strong> using encrypted storage. We do not upload your pet profiles or photos to our servers.</p>
+    <p>Your pet data is stored <strong>locally on your device</strong> using encrypted storage. If you sign in to the app (Google Sign-In), your pet profiles, calendar events, analysis history and pet photos are also synced to Google Firebase (Cloud Firestore and Cloud Storage) so your data can be backed up and restored. Signing out or deleting your account removes this synced copy.</p>
     <p>When you use the AI Health Analysis feature, your pet's photo and symptom description are sent to OpenAI's API for processing. This data is not stored permanently and is used solely to generate health insights.</p>
 
     <h2>Third-Party Services</h2>
@@ -97,7 +97,10 @@
         <li><strong>Firebase Crashlytics:</strong> To detect and fix technical issues</li>
         <li><strong>OpenAI API:</strong> To provide AI-powered health analysis</li>
         <li><strong>Adapty:</strong> To manage subscription purchases</li>
-        <li><strong>AppsFlyer:</strong> To measure app install attribution</li>
+        <li><strong>AppsFlyer:</strong> To measure app install attribution (the IDFA advertising identifier is used only if you allow tracking in the iOS App Tracking Transparency prompt)</li>
+        <li><strong>Amplitude:</strong> Product analytics — usage events tied to a random installation identifier</li>
+        <li><strong>Amplitude Session Replay:</strong> Recordings of app screens and touch interactions, used to diagnose usability problems and bugs</li>
+        <li><strong>Firebase Authentication &amp; Cloud Storage:</strong> Sign-in and cloud backup of your pet data when you choose to sign in</li>
     </ul>
     <p>Each service has its own privacy policy, and we encourage you to review them.</p>
 
